@@ -18,3 +18,98 @@ body{
     background-repeat: no-repeat;
     margin: 5%;
   }
+
+  p{
+    font-size: 1em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box; 
+    text-align: center;
+    margin: 10%;
+  }
+    
+  ol{
+    list-style: none;
+    padding: 10px;
+  }
+    
+  #input-name label,
+  #input-email label,
+  #input-phone label,
+  #input-dob label{
+    display: inline-block;
+    width: 50px;
+    margin-right: 10px;
+    padding-bottom: 1em;
+  }
+    
+  #input-name input,
+  #input-email input,
+  #input-phone input,
+  #input-dob input{
+    display: inline-block;
+    width: calc(100% - 90px);
+    margin-bottom: 10px;
+    border-radius: 5%;
+    font-family: "Kode Mono", monospace;
+  }
+    
+  #input-tos label{
+    display: inline-block;
+    padding-bottom: 10px;
+    white-space: nowrap;  
+  
+  }
+    
+  #input-tos input[type="checkbox"]{
+    display: inline-block;
+    accent-color: #cced7e;
+    height: 1em;
+    width: 1em;
+  }
+    
+  #input-submit input[type="submit"]{
+    margin: 10%;
+    width: 250px;
+    height: 50px;
+    border-radius: 5%;
+    font-family: "Kode Mono", monospace;
+    font-weight: 500;
+    font-size: 1.618em;
+    color: rgb(54, 54, 54);
+  }
+    
+  input[type="text"],
+  input[type="email"],
+  input[type="checkbox"],
+  input[type="submit"], 
+  input[type="tel"],
+  input[type="date"]{
+    border: none;
+    background-color: #f0f0f0e6;
+    padding: 5px;
+    width: 80%; 
+    box-sizing: border-box;
+  } 
+  
+  input[type="date"]{
+    appearance: none;
+  }
+
+  #input-tos input[type="checkbox"]{
+    display: inline-block;
+    accent-color: #cced7e;
+    height: 1em;
+    width: 1em;
+  }
+    
+  #input-submit input[type="submit"]{
+    margin: 10%;
+    width: 250px;
+    height: 50px;
+    border-radius: 5%;
+    font-family: "Kode Mono", monospace;
+    font-weight: 500;
+    font-size: 1.618em;
+    color: rgb(54, 54, 54);
+  }
