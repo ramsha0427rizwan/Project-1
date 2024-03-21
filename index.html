@@ -14,4 +14,28 @@
 <body>
 <main id="content">
   <form method="get" action="#null" autocomplete="on">
-    <h1> Sign up to enter in a free cruise raffle </h1>
+    <h1>Want to win a free cruise this summer? </h1>
+    <p>Sign up below to enter the raffle!</p>
+    <ol>
+      <li id="input-name">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+      </li>
+      <li id="input-email">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" pattern="^.+@.+$">
+      </li>
+      <li id="input-tc-verification">
+        <input type="checkbox" id="tc-verification" name="tc-verification">
+        <label for="tc-verification">I have read/agreed to the <span id="link">Terms & Conditions</span></label>
+      </li>
+      <li id="input-submit">
+        <input type="submit" name="submit" id="submit" value="Create Account">
+      </li>
+    </ol>
+  </form>
+</main>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="js/site.js"></script>
+</body>
+</html>
