@@ -60,4 +60,9 @@ body{
     font-weight: 500; 
     font-size: 1.618em;
   }
+
+  ol{
+    list-style: none;
+    padding: 10px;
+  }
  
