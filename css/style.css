@@ -7,6 +7,10 @@ body{
     list-style: none;
   }
 
+  body {
+    text-align: center;
+  }
+
   h1{
     font-weight: bold;
     font-size: 2.236em;
@@ -26,7 +30,7 @@ body{
     padding: 3rem;
     border: 1px solid #000000;
     border-radius: 5px;
-}
+  }
 
   label { 
     display: block;
@@ -35,11 +39,6 @@ body{
     padding-bottom: 0.5em;
     width: 97%;
     margin: 1% 1.5%;
-  }
-
-  body {
-    background-color: #a4cbeb;
-    text-align: center;
   }
 
   p{
@@ -51,12 +50,12 @@ body{
     text-align: center;
     margin: 10%;
   }
-     
+
   #input-submit input[type="submit"]{
     margin: 10%;
-    width: 250px;
-    height: 50px;
-    border-radius: 5%;
+    width: 220px;
+    height: 40px;
+    border-radius: 3%;
     font-family: "Lucida Console", Courier, monospace;
     font-weight: 500; 
     font-size: 1.618em;
